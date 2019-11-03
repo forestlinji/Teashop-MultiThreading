@@ -11,8 +11,8 @@ class HelloWorld {
     public void hello() throws InterruptedException{
         for (int i = 0; i < n; i++) {
             synchronized (this){
-                notifyAll();
                 System.out.print("Hello");
+                notifyAll();
                 firstHello =true;
                 this.wait();
             }
@@ -23,8 +23,8 @@ class HelloWorld {
         while(firstHello ==false);//当第一个hello没有被输出时，无限循环
         for (int i = 0; i < n; i++) {
             synchronized (this){
-                notifyAll();
                 System.out.println("World!");
+                notifyAll();
                 this.wait();
             }
         }

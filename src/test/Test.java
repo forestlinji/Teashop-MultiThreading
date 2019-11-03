@@ -18,5 +18,12 @@ public class Test {
 
         //模拟配料不足
         teaShop.sell("milktea4","Coconut");
+
+        //此时剩余配料为0，添加过期配料，模拟过期
+        Calendar calendar=Calendar.getInstance();
+        calendar.add(Calendar.DATE,-20);//当前时间-20天
+        teaShop.stock(new Coconut("c2",calendar));
+        teaShop.sell("milktea4","Coconut");
+
     }
 }

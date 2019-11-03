@@ -33,6 +33,10 @@ public class TeaShop {
         coconutList.add(coconut);
     }
 
+    /**
+     * 进货
+     * @param ingredient 需要的配料
+     */
     public void stock(Ingredient ingredient){
         if(ingredient instanceof Bubble){
             addBubble((Bubble)ingredient);
@@ -42,6 +46,11 @@ public class TeaShop {
         }
     }
 
+    /**
+     * 售卖奶茶
+     * @param teaName 奶茶名字
+     * @param ingredientName 配料的种类
+     */
     public void sell(String teaName, String ingredientName){
         //售卖前先删除过期配料
         deleteOverdueIngredient();

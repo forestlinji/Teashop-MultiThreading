@@ -32,9 +32,9 @@ public class MilkTea {
 
     @Override
     public String toString() {
-        return "MilkTea{" +
-                "name='" + name + '\'' +
-                ", ingredient=" + ingredient +
+        return "奶茶信息{" +
+                "奶茶名字：'" + name + '\'' +
+                ", 配料：" + ingredient +
                 '}';
     }
 }

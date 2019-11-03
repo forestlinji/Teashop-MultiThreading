@@ -11,10 +11,10 @@ public abstract class Ingredient {
 
     @Override
     public String toString() {
-        return "Ingredient{" +
-                "name='" + name + '\'' +
-                ", productionDate=" + productionDate.getTime() +
-                ", expireDate=" + storageLife +
+        return "配料信息{" +
+                "配料名字：'" + name + '\'' +
+                ", 生产日期：" + productionDate.getTime() +
+                ", 保质期：" + storageLife + "天" +
                 '}';
     }
 

@@ -52,7 +52,7 @@ public class TeaShop {
 
                 MilkTea milkTea=new MilkTea(teaName,bubbleList.get(0));
                 bubbleList.remove(0);
-                System.out.println(milkTea+"\n"+"sold successfully");
+                System.out.println(milkTea+"\n"+"该奶茶成功售出");
 
             }
             else if(ingredientName.equals("Coconut")){
@@ -61,7 +61,7 @@ public class TeaShop {
 
                 MilkTea milkTea=new MilkTea(teaName,coconutList.get(0));
                 coconutList.remove(0);
-                System.out.println(milkTea+"\n"+"sold successfully");
+                System.out.println(milkTea+"\n"+"该奶茶成功售出");
             }
         }catch (SoldOutException e){
             e.printStackTrace();

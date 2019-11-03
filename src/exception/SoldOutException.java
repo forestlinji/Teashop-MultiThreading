@@ -7,6 +7,6 @@ public class SoldOutException extends Exception{
 
     @Override
     public void printStackTrace() {
-        System.err.println("[ERROR] "+super.getMessage()+" has been sold out.");
+        System.err.println("[ERROR] "+super.getMessage()+" 已经售完");
     }
 }

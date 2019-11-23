@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-public class TeaShop {
+public class TeaShop implements Shop{
     List<Bubble> bubbleList;
     List<Coconut> coconutList;
 

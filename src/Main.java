@@ -1,4 +1,6 @@
 
+
+
 import java.util.Scanner;
 
 class HelloWorld {
@@ -25,7 +27,7 @@ class HelloWorld {
             synchronized (this){
                 System.out.println("World!");
                 notifyAll();
-                this.wait();
+                if(i!=n-1) this.wait();//最后一次，不进行切换
             }
         }
     }
@@ -74,4 +76,6 @@ public class Main {
         new Thread(printWorld).start();
     }
 }
+
+
 

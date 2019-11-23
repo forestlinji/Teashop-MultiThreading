@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67c43e53-6cd1-4f72-ad57-903a70bf6d3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teaShop/TeaShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teaShop/TeaShop.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="第二次考核" />
@@ -67,8 +67,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +94,12 @@
       <workItem from="1572783390667" duration="10000" />
       <workItem from="1572787261288" duration="366000" />
       <workItem from="1572787642896" duration="147000" />
+      <workItem from="1572787841912" duration="22000" />
+      <workItem from="1573979488876" duration="40000" />
+      <workItem from="1573995354325" duration="86000" />
+      <workItem from="1574165114898" duration="575000" />
+      <workItem from="1574517115847" duration="114000" />
+      <workItem from="1574517246220" duration="270000" />
     </task>
     <servers />
   </component>

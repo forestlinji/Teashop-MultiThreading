@@ -8,7 +8,7 @@ import java.util.Calendar;
 //测试类
 public class Test {
     public static void main(String[] args) {
-        TeaShop teaShop=new TeaShop();
+        Shop teaShop=new TeaShop();
         teaShop.stock(new Bubble("b1", Calendar.getInstance()));
         teaShop.stock(new Coconut("c1", Calendar.getInstance()));
         teaShop.stock(new Bubble("b2", Calendar.getInstance()));
